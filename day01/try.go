@@ -2,6 +2,7 @@ package main
 
 import(
 	"fmt"
+	"day01/calic"
 )
 func main(){
 	var a int
@@ -39,5 +40,6 @@ func main(){
 	var p *string = &str1
 	*p = "shuai"
 	fmt.Printf("str1 = %s",str1)
+	fmt.Printf("add = %d",calic.Addnum(a,b))
 
 }
